@@ -1,0 +1,31 @@
+html, button, input, select, textarea {
+	color: #444;
+}
+
+html{ font-
+size: 1em; line-
+height: 1.4;
+bg-color: }
+
+body{
+background-color : #777;
+}
+
+div#wrapper{
+max-width:900px;
+min-width:320px;
+margin: 0 auto;
+}
+
+img {
+	width:150px;
+	height:150px;
+	float: right;
+	border: 10px solid #ccc;
+	overflow: auto;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2); 
+}
+.name{
+    font-family: aladin, sans-serif;
+}
