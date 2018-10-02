@@ -3,6 +3,7 @@
 	<head>
 		
 		<script src="http://use.edgefonts.net/aladin:n4:all;aguafina-script.js"></script>
+		<script src="show.js"></script>
 		<link rel="stylesheet" href="css/resume.css" />
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootsrapcdn.com/font-awsome/4.0.0/css/fontawesome.min.css"/>
@@ -37,26 +38,29 @@
 	<i class="icon-camera-retro"></i>
         <p itemprop="description">Etudiant en Master 2 Développement Logiciel des Systèmes d'Information.</p>
 	<h1>Expériences</h1>
-	<p>2018 - Projet React Native - Gestion des Employés. (G4S Maroc)</p>
-        <p>2017 - Projet Java EE - Gestion des Etudiants. (EST Salé)</p>
+	<p>2018 - Projet React Native - Gestion des Employés. (G4S Maroc) -<b 	onclick="showElement(0)">Détails</b>  
+	<div id="0"  style="display:none; background-color:grey; ">Projet de développement au siége de la société G4S Maroc de 8 semaines</div></p>
+	
+        <p >2017 - Projet Java EE - Gestion des Etudiants. (EST Salé) -<b 	onclick="showElement(1)">Détails</b>  
+	<div id="1"  style="display:none; background-color:grey; ">Réalisation d'une application pour le projet des fin d'études JavaEE pour la gestion des étudiants pendant la durée des stages.</div></p>
         <h1 itemprop="alumniOf">Études</h1>
         <p>2017-2018 - 1ére année Master Ingénierie des Systèmes d'Information.</p>
 	<p>2016-2017 - Licence Professionnelle Logiciels et Développement Web.</p>
     </section>
     <section>
-        <h1 itemprop="knowsAbout">Compétences</h1>
+        <h1 >Compétences</h1>
          <dl>
   		<dt>Front-End</dt>
-  		<dd>HTML5 | React | React Native</dd>
+  		<dd itemprop="knowsAbout">HTML5 | React | React Native</dd>
   		<dt>Back-End</dt>
-  		<dd>PHP | NodeJS | Angular</dd>
+  		<dd itemprop="knowsAbout">PHP | NodeJS | Angular</dd>
 	</dl> 
     </section>
 </article>
  <footer>
- 	<p>Facebook : <a href="mailto:someone@example.com">fb.com/#</a></p>
-	<p>Twitter : <a href="mailto:someone@example.com">twitter.com/#</a></p>
-	<p>LinkedIN : <a href="mailto:someone@example.com">linkedin.com/#</a></p>
+ 	<p itemprop="contactPoint">Facebook : <a href="#">fb.com/#</a></p>
+	<p itemprop="contactPoint">Twitter : <a href="#">twitter.com/#</a></p>
+	<p itemprop="contactPoint">LinkedIN : <a href="#">linkedin.com/#</a></p>
 </footer> 
 </div>
 
